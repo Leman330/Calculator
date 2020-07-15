@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                
+                    <div id="screen"><input id="tablo" type="text" /></div>
+                    <div class="bok">
+                        <button class="delc" onclick="remove()">c</button>
+                        <button class="delc" >on</button>
+                        <button class="delc" >mc</button>
+                        <button class="delc" >mr</button>
+                    </div>
+                        <div class="bok">
+                            <button onclick="yaz('7')">7</button>
+                            <button onclick="yaz('8')">8</button>
+                            <button onclick="yaz('9')">9</button>
+                            <button class="butcolor" onclick="yaz('/')">&#247;</button>
+                        </div>
+                        <div class="bok">
+                            <button onclick="yaz('4')">4</button>
+                            <button onclick="yaz('5')">5</button>
+                            <button onclick="yaz('6')">6</button>
+                            <button class="butcolor"  onclick="yaz('*')">&#10005;</button>
+                        </div>
+                        <div class="bok">
+                            <button onclick="yaz('1')">1</button>
+                            <button onclick="yaz('2')">2</button>
+                            <button onclick="yaz('3')">3</button>
+                            <button  class="butcolor" id="minus" onclick="yaz('-')">&#x2D;</button>
+                        </div>
+                        <div class="bok">
+                            <button onclick="yaz('0')">0</button>
+                            <button onclick="yaz('.')">.</button>
+                            <button  id="finish" onclick="count()">=</button>
+                            <button class="butcolor" onclick="yaz('+')">+</button>
+                        </div>
+                
+            </div>
+        </main>
+        <script src="zz.js"></script>
+
+    </body>
+</html>
+
