@@ -1,0 +1,99 @@
+* {
+    background-color: rgb(134, 235, 230);
+}
+
+#container {
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgb(70, 67, 67);
+    width: 400px;
+    
+    border-radius: 20px ;
+    display: block;
+    position: relative;
+}
+
+#screen {
+    background-color: rgb(70, 67, 67);
+
+}
+
+#tablo {
+    background-color: rgb(179, 245, 179);
+    border: 1px solid rgb(152, 207, 152);
+    border-radius: 10px;
+    width: 360px;
+    height: 70px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+    font: bold 2.5em Tahoma;
+	text-align: right;
+    
+}
+
+.delc {
+    background-color: rgb(255, 172, 19);
+    font: bold 1.5em Tahoma;
+    height: 30px;
+    
+    border: 1px solid rgb(255, 172, 19);
+    
+}
+
+.delc:hover {
+    background-color: rgb(245, 198, 112);
+    border: 1px solid rgb(245, 198, 112);
+
+}
+
+
+.bok {
+    margin-top: 5px;
+    background-color: rgb(70, 67, 67);
+   
+}
+
+button {
+    width: 77px;
+    margin: 5px;
+    height: 60px;
+    background-color: #837f7f;
+    border: 1px solid #837f7f;
+    color: white;
+    font: bold 2.5em Tahoma;
+    text-align: center;
+}
+
+button:hover {
+    background-color:   #b8aeae;
+}
+
+.butcolor {
+    background-color: rgb(13, 148, 238);
+    border:1px solid rgb(13, 148, 238) ;
+}
+
+.butcolor:hover {
+    background-color: rgb(108, 189, 243);
+    border:1px solid rgb(108, 189, 243) ; 
+}
+
+#finish {
+    background: rgb(231, 50, 26);
+    border:1px solid rgb(231, 50, 26) ;
+}
+
+#finish:hover {
+    background: rgb(246, 136, 121);
+    border:1px solid rgb(246, 136, 121);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+#container { max-width: 80%;;margin:50px auto;padding-bottom: 20px;}
+#tablo {width:100%; height: 30%; ;font-size: 2em;}
+button {max-width: 21.5%;font-size: 2em;max-height: 4%;margin: 1%;}
+.bok {text-align: center;}
+}
+    
